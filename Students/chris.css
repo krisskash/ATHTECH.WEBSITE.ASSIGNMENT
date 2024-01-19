@@ -1,0 +1,89 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling for dark theme */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color for contrast */
+}
+
+/* Header styling */
+header {
+    background: #1c1c1c; /* Slightly lighter dark shade for the header */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Section styling */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #1f1f1f; /* Dark shade for sections */
+    border-radius: 8px; /* Rounded corners for the sections */
+}
+
+/* Styling h2 headings within sections */
+section h2 {
+    border-bottom: 2px solid #3c3c3c; /* Dark border for heading */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #e0e0e0; /* Light text color for headings */
+}
+
+/* Unordered list styling */
+ul {
+    list-style: square inside;
+    padding: 0 0 0 20px; /* Indent the list items */
+    color: #bbb; /* Slightly dimmed text color for list items */
+}
+
+/* Link styling */
+a {
+    color: #4da8da; /* Bright blue color for links to stand out */
+    text-decoration: none;
+}
+
+/* Links hover effect */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background: #1c1c1c; /* Same as header */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Footer link styling */
+footer a {
+    color: #4da8da; /* Same as other links */
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    /* Make the sections stack on top of each other on small screens */
+    body {
+        padding: 10px;
+    }
+
+    header, footer {
+        text-align: center;
+    }
+}
