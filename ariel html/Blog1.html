@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Hotel Booking Website/OUR BLOG/5 dishes you should try while your visting</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+
+</head>
+
+<body>
+  <section class="head">
+    <div class="container flex1">
+      <div class="scoial">
+      </div>
+      <div class="logo">
+        <img src="/image/logo.png" alt="">
+      </div>
+      <div class="address">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Leof. Alexandras 205, Athens, Greece</span>
+      </div>
+    </div>
+  </section>
+
+
+  <header class="header">
+    <div class="container">
+      <nav class="navbar flex1">
+        <div class="sticky_logo logo">
+          <img src="/image/logo.png" alt="">
+        </div>
+
+        <ul class="nav-menu">
+          <li> <a href="#home">Home</a> </li>
+          <li> <a href="#about">about</a> </li>
+          <li> <a href="#room">room</a> </li>
+          <li> <a href="#services">services</a> </li>
+          <li> <a href="#shop">shop</a> </li>
+          <li> <a href="#testimonials">testimonials</a> </li> 
+          <li> <a href="#blog">blog</a> </li>
+          <li> <a href="#contact">contact</a> </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+       
+        </div>
+      </nav>
+    </div>
+  </header>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobliemmenu);
+
+    function mobliemmenu() {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    }
+
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0)
+    })
+  </script>
+
+    <section class="about" id="about">
+        <div class="container">
+          <div class="heading">
+            <h5>Food</h5>
+            <h2>5 foods in greece we recommend you try out
+            </h2>
+          </div>
+    
+          <div class="content flex  top">
+            <div class="left">
+              <h3>1. Moussaka
+              </h3>
+              <p>Moussaka is a layered casserole made with eggplant, minced meat (often lamb or beef), tomatoes, and béchamel sauce. It is seasoned with herbs and spices, creating a savory and comforting dish.</p>
+            </div>
+            <div class="right">
+                <img src="/image/a.png" alt="">
+              </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="content flex  top">
+            <div class="left">
+              <h3>2. Souvlaki:
+              </h3>
+              <p>Souvlaki consists of skewered and grilled meat, typically served with pita bread and accompanied by tomatoes, onions, and a generous drizzle of tzatziki sauce. Common meats used include pork, chicken, or lamb.</p>
+            </div>
+            <div class="right">
+                <img src="/image/a.png" alt="">
+              </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="content flex  top">
+            <div class="left">
+              <h3>3. Dolma (Dolmades):
+              </h3>
+              <p>Dolma refers to grape leaves stuffed with a mixture of rice, pine nuts, and herbs. Sometimes, they may also contain minced meat. Dolma is often served with a side of yogurt and lemon.</p>
+            </div>
+            <div class="right">
+                <img src="/image/a.png" alt="">
+              </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="content flex  top">
+            <div class="left">
+              <h3>4. Spanakopita:
+              </h3>
+              <p>Spanakopita is a savory pastry filled with spinach, feta cheese, onions, and various herbs. The filling is encased in layers of phyllo dough, creating a flaky and flavorful pie.</p>
+            </div>
+            <div class="right">
+                <img src="/image/a.png" alt="">
+              </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="content flex  top">
+            <div class="left">
+              <h3>5. Greek Salad (Horiatiki Salata):
+              </h3>
+              <p>A classic Greek salad is a refreshing combination of tomatoes, cucumbers, red onions, olives, and feta cheese. It's seasoned with olive oil, oregano, and sometimes adorned with a few sprigs of fresh mint.</p>
+            </div>
+            <div class="right">
+                <img src="/image/a.png" alt="">
+              </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+
+  <section class="blog top" id="blog">
+    <div class="container">
+      <div class="heading">
+        <h5>OUR BLOG</h5>
+        <h3>News & articles updates</h3>
+      </div>
+
+      <div class="content grid mtop">
+        <div class="box">
+          <div class="img">
+            <img src="/image/b1.jpg" alt="">
+            <span>HOTEL</span>
+          </div>
+          <div class="text">
+            <div class="flex">
+              <i class="far fa-user"> <label>Admin</label> </i>
+              <i class="far fa-comments"> <label>Comment</label> </i>
+            </div>
+            <h3>5 reason why you should visit greece</h3>
+            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Read More <i class='far fa-long-arrow-alt-right'></i> </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="/image/b2.jpg" alt="">
+            <span>HOTEL</span>
+          </div>
+          <div class="text">
+            <div class="flex">
+              <i class="far fa-user"> <label>Admin</label> </i>
+              <i class="far fa-comments"> <label>Comment</label> </i>
+            </div>
+            <h3>5 dishes you should try while your visting</h3>
+            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Read More <i class='far fa-long-arrow-alt-right'></i> </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="/image/b3.jpg" alt="">
+            <span>HOTEL</span>
+          </div>
+          <div class="text">
+            <div class="flex">
+              <i class="far fa-user"> <label>Admin</label> </i>
+              <i class="far fa-comments"> <label>Comment</label> </i>
+            </div>
+            <h3>5 places we recommend you to check out</h3>
+            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Read More <i class='far fa-long-arrow-alt-right'></i> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <footer>
+    <div class="container top">
+      <div class="subscribe" id="contact">
+        <h2>Subscribe newsletter</h2>
+        <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="input flex">
+          <input type="email" placeholder="Your Email address">
+          <button class="flex1">
+            <span>Subscribe</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="content grid  top">
+        <div class="box">
+          <div class="logo">
+            <img src="/image/logo.png" alt="">
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><i class="fas fa-angle-double-right"></i>Big Data</li>
+            <li><i class="fas fa-angle-double-right"></i>Wellness</li>
+            <li><i class="fas fa-angle-double-right"></i>Spa Gallery</li>
+            <li><i class="fas fa-angle-double-right"></i>Reservation</li>
+            <li><i class="fas fa-angle-double-right"></i>FAQ</li>
+            <li><i class="fas fa-angle-double-right"></i>Contact</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h2>Services</h2>
+          <ul>
+            <li><i class="fas fa-angle-double-right"></i>Restaurant</li>
+            <li><i class="fas fa-angle-double-right"></i>Swimming Pool</li>
+            <li><i class="fas fa-angle-double-right"></i>Wellness & Spa</li>
+            <li><i class="fas fa-angle-double-right"></i>Conference Room</li>
+            <li><i class="fas fa-angle-double-right"></i>Events</li>
+            <li><i class="fas fa-angle-double-right"></i>Adult Room</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h2>Services</h2>
+          <div class="icon flex">
+            <div class="i">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>Leof. Alexandras 205, Athens, Greece</p>
+            </div>
+          </div>
+          <div class="icon flex">
+            <div class="i">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>+123 456 7898</p>
+            </div>
+          </div>
+          <div class="icon flex">
+            <div class="i">
+              <i class="far fa-envelope"></i>
+            </div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>czpapafragkos@athtech.gr</p>
+              <p>ajroa@athtech.gr</p>
+              <p>skakou@athtech.gr</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+
+</html>
