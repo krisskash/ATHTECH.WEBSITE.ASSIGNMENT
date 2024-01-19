@@ -1,10 +1,10 @@
 body{
     width: 40%;
     border: solid;
-    border-color: white;
+    border-color:rgb(156, 136, 102);
     margin: auto;
     padding: 10px;
-    background-image: url(/ATHTECH.WEBSITE.ASSIGNMENT-main/Students/Ariel/FFxiv\ my\ cafe.png); 
+    background-image: url(/Students/Ariel/FFxiv\ my\ cafe.png); 
 }
 /* for text fonts */
 h1,
@@ -27,7 +27,7 @@ ul{
 .in-background{
     height: 100%;
     width: 100%;
-    background-color:rgba(255, 255, 255, 0.5)
+    background-color:rgb(255, 255, 255,0.6);
     
 }
 /* texts spacing */
